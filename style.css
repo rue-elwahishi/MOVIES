@@ -1,0 +1,35 @@
+*{
+   margin: 0;
+   padding: 0;
+   list-style: 0;
+   text-decoration: 0;
+}
+
+
+
+
+
+header {
+	background-color: #FFFFFF;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+  
+h1 {
+ font-family: 'Anton', sans-serif;
+ font-size: 80px;
+}
+ h2 {
+ 	font-family: 'Yanone Kaffeesatz', sans-serif;
+ 	font-weight: lighter;
+ 	position: relative;
+ 	top: -20px;
+ 	font-size: 20px;
+ 	right: 52px;
+ }
+ h1::first-letter {
+ 	color: #C32F27;
+ }
