@@ -10,9 +10,9 @@
 
 
 header {
-	background-color: #FFFFFF;
+	background-color: black;
   width: 100%;
-  height: 80px;
+  height: 120px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -21,15 +21,60 @@ header {
 h1 {
  font-family: 'Anton', sans-serif;
  font-size: 80px;
+ color: white;
+ line-height: 107px;
 }
  h2 {
- 	font-family: 'Yanone Kaffeesatz', sans-serif;
+ 	font-family: 'Open Sans', sans-serif;
  	font-weight: lighter;
  	position: relative;
- 	top: -20px;
- 	font-size: 20px;
- 	right: 52px;
+ 	top: -18px;
+ 	font-size: 12px;
+ 	right: 55px;
+  color: white;
  }
  h1::first-letter {
  	color: #C32F27;
+
  }
+
+img {
+  width: 10vw;
+  height: auto;
+}
+
+
+
+ nav {
+  background-color: #cccc39;
+  width: 100%;
+  height: 30px;
+ }
+  div {
+  	display: flex;
+  	flex-direction: row;
+  	justify-content: space-around;
+     padding: 7px;
+ }
+
+  #allMovies {
+    background-color: #D87F47;
+    display: flex;
+    grid-template-columns: 60px 60px;
+  }
+
+  .btn1 {
+    background-color: transparent;
+    border: none;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+  }
+
+.poster {
+  border: 5px solid white;
+  border-radius: 2px;
+}
+
+
