@@ -11,7 +11,7 @@ var movies = [
        	title : "one flew over the cukoos nest",
        	director : "Miloš Forman",
        	img : "images/cuckoos.jpg",
-       	genre : "Classic",
+      genre: "Classic",
        },
 
           { 
@@ -132,32 +132,32 @@ var movies = [
        	genre : "Sci-fi",
        },
 
- //          { 
- //       	title : title,
- //       	director : director,
- //       	img : img,
- //       	genre : genre,
- //       },
+          { 
+       	title : "Whiplash",
+       	director : "Damien Chazelle",
+       	img : "images/Whiplash.jpg",
+       	genre : "Drama",
+       },
 
- //          { 
- //       	title : title,
- //       	director : director,
- //       	img : img,
- //       	genre : genre,
- //       },
- // { 
- //       	title : title,
- //       	director : director,
- //       	img : img,
- //       	genre : genre,
- //       },
+          { 
+       	title : "Roma",
+       	director : "Angelina Jolie",
+       	img : "images/Roma.jpg",
+       	genre : "Drama",
+       },
+ { 
+       	title : "The Revanant",
+       	director : "Alejandro González Iñárritu",
+       	img : "images/Therevanant.jpg",
+       	genre : "Drama",
+       },
 
- //           { 
- //       	title : title,
- //       	director : director,
- //       	img : img,
- //       	genre : genre,
- //       },
+           { 
+       	title : "Dunkirk",
+       	director : "Christopher Nolan",
+       	img : "images/Dunkirk.jpg",
+       	genre : "Drama",
+       },
 
 
  //          { 

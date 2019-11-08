@@ -40,13 +40,13 @@ h1 {
 
 img {
   width: 10vw;
-  height: auto;
+
 }
 
 
 
  nav {
-  background-color: #cccc39;
+  background-color: #D87F47;
   width: 100%;
   height: 30px;
  }
@@ -60,10 +60,18 @@ img {
   #allMovies {
     background-color: #D87F47;
     display: flex;
-    grid-template-columns: 60px 60px;
-  }
+    } 
 
-  .btn1 {
+  .classic {
+    background-color: transparent;
+    border: none;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+  } 
+
+  .drama {
     background-color: transparent;
     border: none;
     font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -72,9 +80,52 @@ img {
     cursor: pointer;
   }
 
-.poster {
-  border: 5px solid white;
-  border-radius: 2px;
+   .scifi {
+     background-color: transparent;
+    border: none;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+   }
+ .Home {
+  border: solid white 18px;
+  width: 50px;
+
+}  
+
+.home {
+   background-color: transparent;
+    border: none;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
 }
+  #Classic {
+    background-color: yellow;
+  }
+
+
+  #Drama {
+    background-color: #44355B;
+  } 
+
+.arrow {
+  background-color: transparent;
+  border: none;
+
+    }
+
+.arr {
+  width: 40px;
+}
+
+.slide {
+  background-color: transparent;
+  border: none;
+  margin: 12px;
+}
+
 
 
