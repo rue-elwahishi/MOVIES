@@ -5,7 +5,10 @@
    text-decoration: 0;
 }
 
-
+ body {
+  overflow-x: hidden;
+}
+ 
 
 
 
@@ -57,7 +60,7 @@ img {
      padding: 7px;
  }
 
-  #allMovies {
+  /*#allMovies {
     background-color: #D87F47;
     display: flex;
     } 
@@ -103,13 +106,22 @@ img {
     cursor: pointer;
 }
   #Classic {
-    background-color: yellow;
+      background-color: yellow;
+      width: 100vw;
+      height: 100vh;
   }
 
 
-  #Drama {
+    #Drama {
     background-color: #44355B;
+      width: 100vw;
+     height: 100vh;
   } 
+ 
+#Sci-fi {
+   width: 100vw;
+     height: 100vh;
+}
 
 .arrow {
   background-color: transparent;
@@ -124,8 +136,31 @@ img {
 .slide {
   background-color: transparent;
   border: none;
-  margin: 12px;
+  margin: 0;
+  padding: 0;
+  width: 50px;
+} 
+
+.bigBrother {
+  width: 100vw;
+  height: 100vh;
+}
+*/
+
+#Drama, #Classic, #Sci-fi {
+display: grid;
+grid-template-columns: auto auto auto auto auto auto auto;
+} 
+
+.BigBrother {
+  display: flex;
+
+
 }
 
+img {
+  width: 300px;
+  height: auto;
+}
 
 

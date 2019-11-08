@@ -118,12 +118,12 @@ var movies = [
        },
 
 
-           { 
-       	title : "GoodFellas",
-       	director : "Martin Scorsese",
-       	img : "images/GoodFellas.jpg",
-       	genre : "Classic",
-       },
+       //     { 
+       // 	title : "GoodFellas",
+       // 	director : "Martin Scorsese",
+       // 	img : "images/GoodFellas.jpg",
+       // 	genre : "Classic",
+       // },
 
           { 
        	title : "Arrival",
