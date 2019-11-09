@@ -92,7 +92,20 @@ img {
     align-items: center;
     cursor: pointer;
    } 
+    
+    #Drama {
+      background-color: #462749;
+      color: white;
+    }
 
+    #Classic {
+      background-color: #d2c45c;
+       
+    }
+
+    #Classic #description {
+      color: #b226d1;
+    }
    #genres .watchList img {
     width: 12px;
    }
