@@ -75,7 +75,7 @@ img {
     transition: 0.5s ease;
     position: relative;
     top: 50%;
-    left: 50%;
+    left: 40%;
     margin-top: -120%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -83,8 +83,8 @@ img {
     height: 50vh;
     text-align: center;
     font-family: 'Oswald', sans-serif;
-    font-size: 90px;
-    top: -400px;
+    font-size: 200px;
+    top: -700px;
    }
    
    .Home:hover #description {
