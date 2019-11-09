@@ -115,6 +115,7 @@ var movies = [
        	director : "Barry Jenkins",
        	img : "images/moonlight.jpg",
        	genre : "Drama",
+        
        },
 
 

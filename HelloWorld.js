@@ -6,11 +6,14 @@
       
 			      var storeMovies = $('<div class="Home"> </div>');
 			      storeMovies.append('<img src="./'+movies[i].img+'">')
-			      storeMovies.append('<div class="text-wrapper"> <h3 id="description"><br>+</h3> </div>')
+			      storeMovies.append('<div class="text-wrapper"> <span id="description"><br>+</span> </div>')
 
-			       $('#allMovies').append(storeMovies);
+			    
 			       $('#'+movies[i].genre).append(storeMovies)
-
+              storeMovies.on('click', function(){
+              	$('.BigBrother').html('')
+               $('#List').append($(this))
+              })
 			         }  
 
           } 
@@ -52,6 +55,10 @@
       	   moveToTop($('#Classic'))
       })
 
+      $('.watchList').on('click', function(){
+      	       moveToTop($('#List'))
+      })
+
 
 
       function moveToTop(div){
@@ -91,7 +98,8 @@
   }
  }  
 setInterval(loopTheLoop, 2000)
- 
+  
+
 
 
 
