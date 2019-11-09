@@ -81,7 +81,7 @@
 // this function is going to loop through the array of images and count images until 5 which is the first set to show, and then append it to big
 //brother div, and when that array finishes looping it will go back to index zero and start again.
 		  var i = 0;
-		 function loopTheLoop(){
+		 function SlideShow(){
 		 	$('.BigBrother').html('')
 		  var counter = 0;
 		  while (counter < 5){
@@ -100,7 +100,7 @@
 		    })
 
 
-		  setInterval(loopTheLoop, 2000)
+		  setInterval(SlideShow, 2000)
  
 
 
